@@ -1,0 +1,38 @@
+{
+  "name": "Simon Says Game",
+  "short_name": "Simon Says",
+  "description": "Play the famous Simon Game!",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#BFACE2",
+  "theme_color": "#56067d",
+  "icons": [
+    {
+      "src": "./images/simon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/simon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open linkedin Profile",
+      "short_name": "Open Linkedin",
+      "description": "Linkedin Profile",
+      "url": "links.html",
+      "icons": [{ "src": "./images/linkedin.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Open Github Profile",
+      "short_name": "Open Github",
+      "description": "View the list of podcasts you listen to",
+      "url": "links.html",
+      "icons": [{ "src": "./images/github.png", "sizes": "96x96" }]
+    }
+  ]
+}
